@@ -1,0 +1,38 @@
+.desk {
+    width: 1006px;
+    height: 1006px;
+    box-sizing: border-box;
+    border: 3px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    /*padding: 200px 0 0 0;*/
+}
+
+.desk_square {
+    display: flex;
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    border: 2px solid grey;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(114, 101, 101);
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+h1 {
+    text-align: center;
+}
+
+.black {
+    background-color: black;
+}
+
+/* .white {
+    background-color: white;
+} */
