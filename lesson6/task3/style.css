@@ -1,0 +1,22 @@
+.container {
+    margin: 0 auto;
+    padding: 100px;
+    width: 800px;
+    border: 5px solid black;
+}
+
+.container-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.container-buttons {
+    display: flex;
+}
+
+input {
+    display: block;
+    width: 200px;
+    margin: 50px auto;
+    padding: 10px;
+}
